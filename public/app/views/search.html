@@ -1,0 +1,25 @@
+<div class="light">
+  <h2 class="homehead">Search Aircraft</h2>
+  <div class="box">
+    <form >
+      <h3>Filter By:</h3>
+        <label>Manufacturer</label>
+        <br>
+        <input type="text" ng-model="manufacturer" placeholder="Boeing" class="text-center">
+        <button class="btn btn-primary" ng-click="getPlane(manufacturer)">Search</button>
+        <br>
+        <label>Model</label>
+        <br>
+        <input type="text" ng-model="model" placeholder="737" class="text-center">
+        <button class="btn btn-primary" ng-click="getPlane(model)">Search</button>
+        <br>
+        <label>Number of Engines</label>
+        <br>
+        <input type="number" ng-model="engines" placeholder="2" class="text-center">
+        <button class="btn btn-primary" ng-click="getPlane(engines)">Search</button>
+        <hr>
+    </form>
+    <a href="/" class="btn btn-primary">Back</a>
+    <hr>
+  </div>
+</div>

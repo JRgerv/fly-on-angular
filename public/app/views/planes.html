@@ -1,0 +1,22 @@
+<div class="light">
+  <div class="homehead">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Select Aircraft</h2>
+        <p ng-hide="planes">AIRCRAFT INBOUND...STAND BY</p>
+      </div>
+      <div class="col-sm-6">
+      <h2> <a href="/search" class="btn btn-info">Search Filter</a></h2>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row box">
+    <div class="col-sm-6" ng-repeat="p in planes">
+      <h3><strong>{{ p.manufacturer }}</strong> {{ p.model }}</h3>
+      <a ng-href="/plane/{{ p._id }}" class="btn btn-primary">Details</a>
+    </div>
+  </div>
+</div>

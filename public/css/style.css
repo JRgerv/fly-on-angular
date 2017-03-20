@@ -1,0 +1,37 @@
+
+.BS-override {
+  font-family: 'Oswald', sans-serif;
+  color: grey;
+}
+.container {
+  background: #d6d6d6 !important;
+}
+header {
+  background-color: #08193f;
+  color:white;
+  border: 10px solid #a5a5a5;
+  text-align: center;
+  border: 3px solid grey;
+  border-radius: 10%;
+}
+
+}
+.light {
+  background: #d6d6d6;
+}
+.homehead {
+  background-color: #2771b2;
+  border: 3px solid #a5a5a5;
+  color:white;
+  border: 3px solid grey;
+  border-radius: 10%;
+}
+h2  {
+  color: white;
+}
+label{
+  color:#08193f;
+}
+body {
+  background: grey !important;
+}

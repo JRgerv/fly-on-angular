@@ -36,4 +36,12 @@ router.route('/:id')
     });
   });
 
+router.route("/search")
+.get(function(req, res) {
+  Airplane.find(function(err, airplanes) {
+    if (err) return res.status(500).send(err);
+    return res.send(airplanes);
+  });
+});
+
 module.exports = router;
